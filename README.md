@@ -20,16 +20,21 @@ Clean Box works by attaching to the body tag and waiting for instruction. Argume
 
 ####Detailed Setup
 
-	1.	Download the Clean Box repository
-	2.	Review the provided examples
-	3.	Add cleanBox.js to the head of a page
-	4.	Pass in the appropriate arguments to meet your needs.
-	1.	contents - The HTML to be displayed inside Clean Box
-	2.	showOnCall - Show the Clean Box when called
-	3.	removeAfterClose - Remove Clean Box from the DOM after close
-	4.	onOpen - Callback function to execute after cleanBox is visible
-	5.	onClose - Call back function to execute after cleanBox is visible
-	5.	Call Clean Box with $.cleanBox({ option : value }); at runtime or on the fly. If you need help making a decision, review the examples.
+	1. Download the Clean Box repository
+	2. Review the provided examples
+	3. Add cleanBox.js to the head of a page
+	4. Pass in the appropriate arguments to meet your needs.
+	5. Call Clean Box with $.cleanBox({ option : value }); at runtime or on the fly. If you need help making a decision, review the examples.
+
+####Parameters
+
+Parameter        | Default Value 
+----------------- --------------
+contents         | The HTML to be displayed inside Clean Box
+showOnCall       | Show the Clean Box when called
+removeAfterClose | Remove Clean Box from the DOM after close
+onOpen           | Callback function to execute after cleanBox is visible
+onClose          | Call back function to execute after cleanBox is visible
 
 #####Examples
 ######Using Clean Box with only JavaScript
@@ -46,7 +51,7 @@ Clean Box works by attaching to the body tag and waiting for instruction. Argume
     
      }); 
 ```
-#####Be traditional and use HTML
+######Be traditional and use HTML
 
 ```html
      <!-- Build Clean Box from the DOM -->
@@ -60,7 +65,7 @@ Clean Box works by attaching to the body tag and waiting for instruction. Argume
 
 ```
 
-#####Two Clean Boxes at the same time
+######Two Clean Boxes at the same time
 
 ```html
 <!-- Build Clean Box from the DOM -->
