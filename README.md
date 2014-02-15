@@ -28,13 +28,13 @@ Clean Box works by attaching to the body tag and waiting for instruction. Argume
 
 ####Parameters
 
-Parameter        | Default Value 
+Parameter        | Default Value |
 ----------------- --------------
-contents         | The HTML to be displayed inside Clean Box
-showOnCall       | Show the Clean Box when called
-removeAfterClose | Remove Clean Box from the DOM after close
-onOpen           | Callback function to execute after cleanBox is visible
-onClose          | Call back function to execute after cleanBox is visible
+contents         | The HTML to be displayed inside Clean Box |
+showOnCall       | Show the Clean Box when called |
+removeAfterClose | Remove Clean Box from the DOM after close |
+onOpen           | Callback function to execute after cleanBox is visible |
+onClose          | Call back function to execute after cleanBox is visible |
 
 #####Examples
 ######Using Clean Box with only JavaScript
