@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Clean Box - JavaScript</title>
+		<!-- Include the Clean Box CSS -->
+		<link type="text/css" rel="stylesheet" href="../css/jquery.cleanBox.css" />
+		<!-- Include jQuery and Tile Shim -->
+		<script src="../js/latest.jquery.js"></script>
+		<script src="../js/jquery.cleanBox.js"></script>
+		<style>body{margin: 0; padding: 0;}</style>
+	</head>
+	<body>
+	<!-- Build Clean Box on the fly -->		
+	<a href="#" class="button">Show me that Clean Box!</a>
+	<script>
+	$('.button').on('click', function(){
+	     $.cleanBox({
+	     	contents: '<h1>Clean Box</h1><p>You see me doing what I do best!</p>',
+	     	showOnCall: true	
+	      });
+	
+	});	
+	</script>
+	
+	</body>
+</html>

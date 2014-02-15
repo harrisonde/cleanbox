@@ -1,0 +1,50 @@
+/* | Clean Box
+------------------------- */
+#cleanBox{
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 99;
+	top: 0;
+
+}
+
+#cleanBox .background {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; /* IE8 */
+	background-color: #000;
+	height: 100%;
+	opacity: .6;
+	position: absolute;
+	width: 100%;
+}
+
+#cleanBox .contents {
+	background: #FFF;
+	border: 1px solid #3F3F3F;
+	left: 50%;
+	margin-left: -40%;
+	height: auto;
+	opacity: 1;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	padding-top: 2%;
+	position: absolute;
+	top: 10%;
+	width: 80%;
+	moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	
+}
+
+#cleanBox .close{
+	cursor: pointer;
+	position: absolute;
+	top: 7px;
+	right: 16px;
+	font-size: 2em;
+}
+
+[data-cleanbox]{display: none;}

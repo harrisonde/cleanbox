@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Clean Box - A bit more traditional</title>
+		<!-- Include the Clean Box CSS -->
+		<link type="text/css" rel="stylesheet" href="../css/jquery.cleanBox.css" />
+		<!-- Include jQuery and Tile Shim -->
+		<script src="../js/latest.jquery.js"></script>
+		<script src="../js/jquery.cleanBox.js"></script>
+		<style>body{margin: 0; padding: 0;}</style>
+	</head>
+	<body>
+	
+	<!-- Build Clean Box from the DOM -->
+	<div class="cleanBox" data-cleanbox="box1">
+		<h1>Boom.</h1>
+		<p>I'm super clean, right?</p>
+	</div>
+		
+	<!-- A button to show that Clean Box -->
+	<a href="#" data-cleanbox-button="box1">Show me that box</a>
+	
+	<!-- Build Clean Box from the DOM -->
+	<div class="cleanBox" data-cleanbox="box2">
+		<h1>What What.</h1>
+		<p>I'm that other super clean box.</p>
+	</div>
+	
+	<!-- A button to show that Clean Box -->
+	<a href="#" data-cleanbox-button="box2">Show me that other box</a>
+	
+	
+	<script>
+	$(document).ready(function(){
+		
+		// Call Clean Box
+		$.cleanBox();
+			
+	});
+	</script>
+	</body>
+</html>
