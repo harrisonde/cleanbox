@@ -29,12 +29,12 @@ Clean Box works by attaching to the body tag and waiting for instruction. Argume
 ####Parameters
 
 | Parameter        | Default           | Definition  |
-| ------------- |:-------------:| -----:|
-| contents      | TBD | The HTML to be displayed inside Clean Box |
-| showOnCall      | TBD      | Show the Clean Box when called |
-| removeAfterClose | TBD | Remove Clean Box from the DOM after close  |
-| onOpen | TBD      |    Callback function to execute after cleanBox is visible |
-| onClose | TBD      |    Callback function to execute after cleanBox is hidden |
+| :-------------: |:-------------:| :-----:|
+| contents      | <h1>Clean Box</h1><p>It is just so clean. Right?</p> | The HTML to be displayed inside Clean Box |
+| showOnCall      | false      | Show the Clean Box when called |
+| removeAfterClose | false | Remove Clean Box from the DOM after close  |
+| onOpen | undefined      |    Callback function to execute after cleanBox is visible |
+| onClose | undefined      |    Callback function to execute after cleanBox is hidden |
 
 #####Examples
 ######Using Clean Box with only JavaScript
