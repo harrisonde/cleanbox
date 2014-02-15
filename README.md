@@ -1,20 +1,25 @@
 Clean Box
 ========
 
-A lightweight responsive modal built with love.
+##A lightweight responsive modal built with love.
 
-Clean Box
-What is Clean Box
+###What is Clean Box
+
 Clean Box is a light-weight responsive modal built with love.
-How Clean Box Works
+
+###How Clean Box Works
+
 Clean Box works by attaching to the body tag and waiting for instruction. Arguments can be passed in on fly or or at runtime.  Call Clean Box with JavaScript or be a bit more traditional and used HTML. 
-Implementation
-Quick Start
+
+####Implementation
+#####Quick Start
+
 	1.	Download Clean Box
 	2.	Add cleanBox.js to the head of a page
 	3.	Pick your method for using Clean Box 
 
-Detailed Setup
+####Detailed Setup
+
 	1.	Download the Clean Box repository
 	2.	Review the provided examples
 	3.	Add cleanBox.js to the head of a page
@@ -26,7 +31,8 @@ Detailed Setup
 	5.	onClose - Call back function to execute after cleanBox is visible
 	5.	Call Clean Box with $.cleanBox({ option : value }); at runtime or on the fly. If you need help making a decision, review the examples.
 
-Using Clean Box with only JavaScript
+####Examples
+#####Using Clean Box with only JavaScript
 
 ```html
 <!-- Build Clean Box on the fly -->         
@@ -40,7 +46,7 @@ Using Clean Box with only JavaScript
     
      }); 
 ```
-Be traditional and use HTML
+####Be traditional and use HTML
 
 ```html
      <!-- Build Clean Box from the DOM -->
@@ -54,7 +60,7 @@ Be traditional and use HTML
 
 ```
 
-Two Clean Boxes at the same time
+####Two Clean Boxes at the same time
 
 ```html
 <!-- Build Clean Box from the DOM -->
