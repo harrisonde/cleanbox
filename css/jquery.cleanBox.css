@@ -24,8 +24,9 @@
 	border: 1px solid #3F3F3F;
 	left: 50%;
 	margin-left: -40%;
-	height: auto;
+	height: 80%;
 	opacity: 1;
+	overflow: scroll;
 	padding-left: 1%;
 	padding-right: 1%;
 	padding-bottom: 1%;
