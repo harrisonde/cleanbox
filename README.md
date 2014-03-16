@@ -9,7 +9,7 @@ Clean Box is a lightweight responsive modal built with love.
 
 ###How Clean Box Works
 
-Clean Box works by attaching to the body tag and waiting for instruction. Arguments can be passed in on fly or or at runtime.  Call Clean Box with JavaScript or be a bit more traditional and used HTML. 
+Clean Box works by attaching to the body tag and waiting for instruction. Arguments can be passed on the fly or at runtime.  Call Clean Box with JavaScript or be a bit more traditional and use HTML. 
 
 ####Implementation
 #####Quick Start
